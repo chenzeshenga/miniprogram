@@ -1,8 +1,8 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/index2/index",
-    "pages/index3/index",
+    "pages/index4/index",
+    "pages/index4/scrollview",
     "pages/logs/logs"
   ],
   "window": {
@@ -15,7 +15,7 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/index4/scrollview",
         "text": "tab1"
       },
       {
@@ -23,8 +23,8 @@
         "text": "tab2"
       },
       {
-        "pagePath": "pages/index3/index",
-        "text": "tab3"
+        "pagePath": "pages/index4/index",
+        "text": "tab4"
       }
     ]
   }

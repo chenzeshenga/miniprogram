@@ -1,0 +1,24 @@
+<view class="viewTitle">
+  <text class="titleName">scroll-view展示</text>
+</view>
+<view class="section" style="height:250px">
+  <view class="section__title">样式一，竖向滑动</view>
+  <view class="flex-wrp">
+    <scroll-view scroll-y="true" style="height:200px" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+      <view id="blue" class="scroll-view-item bc_blue"></view>
+      <view id="green" class="scroll-view-item bc_green"></view>
+      <view id="red" class="scroll-view-item bc_red"></view>
+    </scroll-view>
+  </view>
+</view>
+<view class="btn-area">
+  <button size="mini" bindtap="tap">click me to scroll into view </button>
+  <button size="mini" bindtap="tapMove">click me to scroll</button>
+</view>
+<scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" >
+<!--  display: inline-block-->
+  <view style="background: red; width: 200px; height: 100px; display: inline-block" ></view>
+  <view style="background: green; width: 200px; height: 100px; display: inline-block"></view>
+  <view style="background: blue; width: 200px; height: 100px; display: inline-block"></view>
+  <view style="background: yellow; width: 200px; height: 100px; display: inline-block"></view>
+</scroll-view>

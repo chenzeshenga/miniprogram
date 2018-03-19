@@ -1,0 +1,17 @@
+<view class="viewTitle">
+  <text>View展示</text>
+</view>
+<view class="section">
+  <view class="section__title">样式一，横向</view>
+  <view class="flex-wrp">
+    <view class="flex-item bc_green">111</view>
+    <view class="flex-item bc_red">222</view>
+    <view class="flex-item bc_blue">333</view>
+  </view>
+  <view class="section__title">样式二，竖向</view>
+  <view class="flex-wrp">
+    <view class="flex-item bc_green" style="margin-top:0">111</view>
+    <view class="flex-item bc_red" style="margin-top:100px">222</view>
+    <view class="flex-item bc_blue" style="margin-top:200px">333</view>
+  </view>
+</view>
