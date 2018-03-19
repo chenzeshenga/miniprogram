@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
+var common=require("../../js/common.js")
 Page({
   data: {
     motto: 'Hello World, mini program',
@@ -15,6 +15,8 @@ Page({
     ]
   },
   switch: function (e) {
+    common.sayHello("hi");
+    common.sayGoodBye("hi");
     const length = this.data.objectArray.length;
     var arrays = this.data.objectArray;
     var temp = 0;
