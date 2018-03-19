@@ -3,6 +3,7 @@
     "pages/index2/index",
     "pages/index4/index",
     "pages/index4/scrollview",
+    "pages/countdown/countdown",
     "pages/logs/logs"
   ],
   "window": {
@@ -25,6 +26,10 @@
       {
         "pagePath": "pages/index4/index",
         "text": "tab4"
+      },
+      {
+        "pagePath": "pages/countdown/countdown",
+        "text": "tab3"
       }
     ]
   }

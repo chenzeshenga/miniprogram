@@ -1,0 +1,6 @@
+<!--pages/countdown/countdown.wxml-->
+<text>pages/countdown/countdown.wxml</text>
+
+<text style="display: block;text-align: center;font-size: 30px;color: #f60;margin-top: 50px;">
+	{{clock}} {{micro_second}}
+</text>

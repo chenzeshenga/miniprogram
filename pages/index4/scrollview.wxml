@@ -16,7 +16,7 @@
   <button size="mini" bindtap="tapMove">click me to scroll</button>
 </view>
 <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" >
-<!--  display: inline-block-->
+<!--  display: inline-block-->  
   <view style="background: red; width: 200px; height: 100px; display: inline-block" ></view>
   <view style="background: green; width: 200px; height: 100px; display: inline-block"></view>
   <view style="background: blue; width: 200px; height: 100px; display: inline-block"></view>
