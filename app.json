@@ -4,6 +4,7 @@
     "pages/index4/index",
     "pages/swiper/swiper",
     "pages/countdown/countdown",
+    "pages/icon/icon",
     "pages/logs/logs"
   ],
   "window": {
@@ -30,6 +31,10 @@
       {
         "pagePath": "pages/countdown/countdown",
         "text": "countdown"
+      },
+      {
+        "pagePath": "pages/icon/icon",
+        "text": "icon"
       }
     ]
   }
