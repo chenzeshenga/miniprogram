@@ -1,7 +1,7 @@
 {
   "pages": [
     "pages/index2/index",
-    "pages/index4/index",
+    "pages/progress/progress",
     "pages/swiper/swiper",
     "pages/countdown/countdown",
     "pages/icon/icon",
@@ -25,8 +25,8 @@
         "text": "tab2"
       },
       {
-        "pagePath": "pages/index4/index",
-        "text": "tab4"
+        "pagePath": "pages/progress/progress",
+        "text": "progress"
       },
       {
         "pagePath": "pages/countdown/countdown",

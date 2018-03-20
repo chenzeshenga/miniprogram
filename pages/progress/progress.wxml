@@ -1,0 +1,12 @@
+<view>
+  <progress percent="20" show-info />
+</view>
+<view style="margin-top:20px">
+  <progress percent="40" stroke-width="12" />
+</view>
+<view style="margin-top:20px">
+  <progress percent="60" color="pink" active/>
+</view>
+<view style="margin-top:20px">
+  <progress percent="80" active />
+</view>
