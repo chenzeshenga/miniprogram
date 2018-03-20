@@ -2,7 +2,7 @@
   "pages": [
     "pages/index2/index",
     "pages/index4/index",
-    "pages/index4/scrollview",
+    "pages/swiper/swiper",
     "pages/countdown/countdown",
     "pages/logs/logs"
   ],
@@ -16,8 +16,8 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/index4/scrollview",
-        "text": "tab1"
+        "pagePath": "pages/swiper/swiper",
+        "text": "swpier"
       },
       {
         "pagePath": "pages/index2/index",
@@ -29,7 +29,7 @@
       },
       {
         "pagePath": "pages/countdown/countdown",
-        "text": "tab3"
+        "text": "countdown"
       }
     ]
   }
