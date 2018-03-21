@@ -1,11 +1,12 @@
 {
   "pages": [
-    "pages/index2/index",
     "pages/progress/progress",
     "pages/swiper/swiper",
     "pages/countdown/countdown",
     "pages/icon/icon",
-    "pages/logs/logs"
+    "pages/input/input",
+    "pages/logs/logs",
+    "pages/textarea/textarea"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,8 +22,8 @@
         "text": "swpier"
       },
       {
-        "pagePath": "pages/index2/index",
-        "text": "tab2"
+        "pagePath": "pages/textarea/textarea",
+        "text": "textarea"
       },
       {
         "pagePath": "pages/progress/progress",
@@ -33,8 +34,8 @@
         "text": "countdown"
       },
       {
-        "pagePath": "pages/icon/icon",
-        "text": "icon"
+        "pagePath": "pages/input/input",
+        "text": "input"
       }
     ]
   }
