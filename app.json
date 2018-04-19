@@ -1,12 +1,42 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/progress/progress",
+    "pages/swiper/swiper",
+    "pages/countdown/countdown",
+    "pages/icon/icon",
+    "pages/input/input",
+    "pages/logs/logs",
+    "pages/textarea/textarea"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#f00",
     "navigationBarTitleText": "chenzeshenga",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/swiper/swiper",
+        "text": "swpier"
+      },
+      {
+        "pagePath": "pages/textarea/textarea",
+        "text": "textarea"
+      },
+      {
+        "pagePath": "pages/progress/progress",
+        "text": "progress"
+      },
+      {
+        "pagePath": "pages/countdown/countdown",
+        "text": "countdown"
+      },
+      {
+        "pagePath": "pages/input/input",
+        "text": "input"
+      }
+    ]
   }
 }

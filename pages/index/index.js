@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
+var common=require("../../js/common.js")
 Page({
   data: {
     motto: 'Hello World, mini program',
@@ -15,6 +15,8 @@ Page({
     ]
   },
   switch: function (e) {
+    common.sayHello("hi");
+    common.sayGoodBye("hi");
     const length = this.data.objectArray.length;
     var arrays = this.data.objectArray;
     var temp = 0;
@@ -32,38 +34,19 @@ Page({
     })
   },
   //事件处理函数
-  bindViewTap: function() {
+  bindViewTap: function () {
     wx.navigateTo({
       url: '../logs/logs'
     })
   },
   onLoad: function () {
-    //main function in mini program.
-    //no alert function in mini program.
-    console.log("mini program beginning...");
-    if(true){
-      //变量定义 关键字 let&var
-      //let 只能在当前{}中生效，作用域小于var
-      let a = "variable a";
-      //常量
-      const b="123";
-    }else{
-      let b = "variable b";
-    }
-
-    //in es6 new feature
-    var name="name";
-    var age="18";
-    //用 ` 来连接字符串 
-    var message= `name:${name}, age:${age}`;
-    console.log(message);
 
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
         hasUserInfo: true
       })
-    } else if (this.data.canIUse){
+    } else if (this.data.canIUse) {
       // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
       // 所以此处加入 callback 以防止这种情况
       app.userInfoReadyCallback = res => {
@@ -85,7 +68,7 @@ Page({
       })
     }
   },
-  getUserInfo: function(e) {
+  getUserInfo: function (e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo
     this.setData({

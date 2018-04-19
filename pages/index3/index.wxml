@@ -1,0 +1,5 @@
+<view class="center-view">
+  <view class="red">red
+    <view class="green"></view>
+  </view>
+</view>

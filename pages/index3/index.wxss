@@ -1,0 +1,26 @@
+.center-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.red {
+  display: flex;
+  height: 800rpx;
+  background-color: red;
+  width: 600rpx;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.red {
+  height: 200rpx;
+  background-color: green;
+  width: 200rpx;
+  position: relative;
+  top: 100rpx;
+  left: 100rpx;
+}
